@@ -1,6 +1,7 @@
+import estilos from "./Pie.module.css";
 function Pie() {
   return (
-    <footer className="text-red-500">
+    <footer className={estilos.pie}>
       <small>
         Desarrollado por Cristopher Areche y Diseñado por Xavier Reyes | 2022 |
         Todos los derechos reservados.
